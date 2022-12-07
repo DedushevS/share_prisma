@@ -9,6 +9,10 @@
     "db:generate": "dotenv -- prisma generate",
     "postinstall": "tsc && cp src/index.d.ts dist/index.d.ts && npx prisma@4.6.1 generate"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DedushevS/share_prisma.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
